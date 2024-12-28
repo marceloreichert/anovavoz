@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01FD30622938C76447651D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C76BDA7C52E6009A9C5072 /* Assets.xcassets */; };
+		39BEC1C3F52E8CF56981950C /* Anovavoz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7601B5C4DED475B7D99991D8 /* Anovavoz.swift */; };
+		4D8ABACED69259C74FC18314 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4745020A1F56A0FDCCF5C3 /* ContentView.swift */; };
+		4FC59F12A0C3A3E9FE571191 /* LiveViewNative in Frameworks */ = {isa = PBXBuildFile; productRef = 54A17D86FC3EF475AC04A0FE /* LiveViewNative */; };
+		515375923995EB1A502A13F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70AD3051B52691842CC2DB27 /* Preview Assets.xcassets */; };
+		5D0D8105CD1D41581E3BA329 /* LiveViewNativeLiveForm in Frameworks */ = {isa = PBXBuildFile; productRef = E21DD823F5688AFD5CCE3E27 /* LiveViewNativeLiveForm */; };
+		6A7281DAB3E7C5224DC54CF2 /* LiveViewNative in Frameworks */ = {isa = PBXBuildFile; productRef = 4E191255F059E5B08062D5C5 /* LiveViewNative */; };
+		7020923D76FECE90F101B88A /* ConnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F588924E309C043878C8C62 /* ConnectingView.swift */; };
+		73A4832F8C1C803C7915A01D /* DisconnectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8B7BB1EF1731DB1E183DB /* DisconnectedView.swift */; };
+		7ACFF61356F9EE574433E083 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25C76F8099892EA0E10FBAA /* ErrorView.swift */; };
+		84807E89E88D6594F9223625 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4745020A1F56A0FDCCF5C3 /* ContentView.swift */; };
+		91564A4EECEAF6410B2531D9 /* Anovavoz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7601B5C4DED475B7D99991D8 /* Anovavoz.swift */; };
+		AD12A0843C9ACB9D7CAA2327 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70AD3051B52691842CC2DB27 /* Preview Assets.xcassets */; };
+		D50EBD733E6A4DEAF6843B35 /* LiveViewNativeLiveForm in Frameworks */ = {isa = PBXBuildFile; productRef = 6028872F5365A346675AB47C /* LiveViewNativeLiveForm */; };
+		DF81567861741550730BA081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C76BDA7C52E6009A9C5072 /* Assets.xcassets */; };
+		E4FCFAA675A8168F9C369E39 /* ReconnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783580D64F8AEAFE68ACECF9 /* ReconnectingView.swift */; };
+		E74C8DA9298A39389572841A /* DisconnectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8B7BB1EF1731DB1E183DB /* DisconnectedView.swift */; };
+		E7C9E6AD0AC41515D62E8AFF /* ReconnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783580D64F8AEAFE68ACECF9 /* ReconnectingView.swift */; };
+		F07BB691ED593C76C2541837 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25C76F8099892EA0E10FBAA /* ErrorView.swift */; };
+		F70556F89509A460FA268802 /* ConnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F588924E309C043878C8C62 /* ConnectingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DB8B7BB1EF1731DB1E183DB /* DisconnectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisconnectedView.swift; sourceTree = "<group>"; };
+		70AD3051B52691842CC2DB27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7601B5C4DED475B7D99991D8 /* Anovavoz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anovavoz.swift; sourceTree = "<group>"; };
+		783580D64F8AEAFE68ACECF9 /* ReconnectingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReconnectingView.swift; sourceTree = "<group>"; };
+		7F588924E309C043878C8C62 /* ConnectingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectingView.swift; sourceTree = "<group>"; };
+		8E21BBA2B36FD33B8E30A448 /* Anovavoz Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anovavoz Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C76BDA7C52E6009A9C5072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C25C76F8099892EA0E10FBAA /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		DA4745020A1F56A0FDCCF5C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F7301DE53055B241A830F8ED /* Anovavoz.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Anovavoz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47C045B6898E93F9FAE6083F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC59F12A0C3A3E9FE571191 /* LiveViewNative in Frameworks */,
+				5D0D8105CD1D41581E3BA329 /* LiveViewNativeLiveForm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F049D744B0A3DE313A255027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7281DAB3E7C5224DC54CF2 /* LiveViewNative in Frameworks */,
+				D50EBD733E6A4DEAF6843B35 /* LiveViewNativeLiveForm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54D1B53467470EA2DF89A56C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E21BBA2B36FD33B8E30A448 /* Anovavoz Watch App.app */,
+				F7301DE53055B241A830F8ED /* Anovavoz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55F0A7961E0306B6DCC1D728 = {
+			isa = PBXGroup;
+			children = (
+				FCEFE7ABDEFE0223A945AF4B /* Anovavoz */,
+				54D1B53467470EA2DF89A56C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84E3697600A4AFC02F5146EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				70AD3051B52691842CC2DB27 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCEFE7ABDEFE0223A945AF4B /* Anovavoz */ = {
+			isa = PBXGroup;
+			children = (
+				84E3697600A4AFC02F5146EA /* Preview Content */,
+				7601B5C4DED475B7D99991D8 /* Anovavoz.swift */,
+				B0C76BDA7C52E6009A9C5072 /* Assets.xcassets */,
+				7F588924E309C043878C8C62 /* ConnectingView.swift */,
+				DA4745020A1F56A0FDCCF5C3 /* ContentView.swift */,
+				2DB8B7BB1EF1731DB1E183DB /* DisconnectedView.swift */,
+				C25C76F8099892EA0E10FBAA /* ErrorView.swift */,
+				783580D64F8AEAFE68ACECF9 /* ReconnectingView.swift */,
+			);
+			path = Anovavoz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		446C4AD03E35547189534B8D /* Anovavoz Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26E7485E0778663745BFC22 /* Build configuration list for PBXNativeTarget "Anovavoz Watch App" */;
+			buildPhases = (
+				FD9394DD66DE3DCA64BCE856 /* Sources */,
+				E75B0118D97959D21EA1DC49 /* Resources */,
+				47C045B6898E93F9FAE6083F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Anovavoz Watch App";
+			packageProductDependencies = (
+				54A17D86FC3EF475AC04A0FE /* LiveViewNative */,
+				E21DD823F5688AFD5CCE3E27 /* LiveViewNativeLiveForm */,
+			);
+			productName = "Anovavoz Watch App";
+			productReference = 8E21BBA2B36FD33B8E30A448 /* Anovavoz Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B092A1524E63B166FCF51435 /* Anovavoz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D300240C6B1DCFFCE53ACC93 /* Build configuration list for PBXNativeTarget "Anovavoz" */;
+			buildPhases = (
+				43D7F38EA5AE425250F6B355 /* Sources */,
+				4B4937C5551B096E5A8ADB89 /* Resources */,
+				F049D744B0A3DE313A255027 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Anovavoz;
+			packageProductDependencies = (
+				4E191255F059E5B08062D5C5 /* LiveViewNative */,
+				6028872F5365A346675AB47C /* LiveViewNativeLiveForm */,
+			);
+			productName = Anovavoz;
+			productReference = F7301DE53055B241A830F8ED /* Anovavoz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B1283DB54D81BC88D449F7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = EBE1BB9E081971720E65F14F /* Build configuration list for PBXProject "Anovavoz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 55F0A7961E0306B6DCC1D728;
+			packageReferences = (
+				C8141D529485652DAD18CC82 /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */,
+				758A9BF2E0D30BDED8F61A9B /* XCRemoteSwiftPackageReference "liveview-native-live-form" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B092A1524E63B166FCF51435 /* Anovavoz */,
+				446C4AD03E35547189534B8D /* Anovavoz Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B4937C5551B096E5A8ADB89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FD30622938C76447651D0C /* Assets.xcassets in Resources */,
+				515375923995EB1A502A13F2 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75B0118D97959D21EA1DC49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF81567861741550730BA081 /* Assets.xcassets in Resources */,
+				AD12A0843C9ACB9D7CAA2327 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43D7F38EA5AE425250F6B355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91564A4EECEAF6410B2531D9 /* Anovavoz.swift in Sources */,
+				7020923D76FECE90F101B88A /* ConnectingView.swift in Sources */,
+				84807E89E88D6594F9223625 /* ContentView.swift in Sources */,
+				E74C8DA9298A39389572841A /* DisconnectedView.swift in Sources */,
+				F07BB691ED593C76C2541837 /* ErrorView.swift in Sources */,
+				E7C9E6AD0AC41515D62E8AFF /* ReconnectingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9394DD66DE3DCA64BCE856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BEC1C3F52E8CF56981950C /* Anovavoz.swift in Sources */,
+				F70556F89509A460FA268802 /* ConnectingView.swift in Sources */,
+				4D8ABACED69259C74FC18314 /* ContentView.swift in Sources */,
+				73A4832F8C1C803C7915A01D /* DisconnectedView.swift in Sources */,
+				7ACFF61356F9EE574433E083 /* ErrorView.swift in Sources */,
+				E4FCFAA675A8168F9C369E39 /* ReconnectingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0049EFF87D66901A085D6A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Anovavoz;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.Anovavoz;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		1F88668FC05B010901A7F997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Anovavoz.watchkit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		2F83CF601B319EBF6C1C0005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Anovavoz.watchkit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		576BCA91401D43B656EC1B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Anovavoz;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator appletvos appletvsimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Debug;
+		};
+		5BBCDA4D334863E27F794D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Anovavoz;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.Anovavoz;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		6B741AB4D3B16071AC47D4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Anovavoz;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator appletvos appletvsimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A26E7485E0778663745BFC22 /* Build configuration list for PBXNativeTarget "Anovavoz Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F88668FC05B010901A7F997 /* Debug */,
+				2F83CF601B319EBF6C1C0005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D300240C6B1DCFFCE53ACC93 /* Build configuration list for PBXNativeTarget "Anovavoz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				576BCA91401D43B656EC1B53 /* Debug */,
+				6B741AB4D3B16071AC47D4AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EBE1BB9E081971720E65F14F /* Build configuration list for PBXProject "Anovavoz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBCDA4D334863E27F794D8C /* Debug */,
+				0049EFF87D66901A085D6A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		758A9BF2E0D30BDED8F61A9B /* XCRemoteSwiftPackageReference "liveview-native-live-form" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/liveview-native/liveview-native-live-form";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = "0.4.0-rc.0";
+			};
+		};
+		C8141D529485652DAD18CC82 /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/liveview-native/liveview-client-swiftui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = "0.4.0-rc.0";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4E191255F059E5B08062D5C5 /* LiveViewNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8141D529485652DAD18CC82 /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */;
+			productName = LiveViewNative;
+		};
+		54A17D86FC3EF475AC04A0FE /* LiveViewNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8141D529485652DAD18CC82 /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */;
+			productName = LiveViewNative;
+		};
+		6028872F5365A346675AB47C /* LiveViewNativeLiveForm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 758A9BF2E0D30BDED8F61A9B /* XCRemoteSwiftPackageReference "liveview-native-live-form" */;
+			productName = LiveViewNativeLiveForm;
+		};
+		E21DD823F5688AFD5CCE3E27 /* LiveViewNativeLiveForm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 758A9BF2E0D30BDED8F61A9B /* XCRemoteSwiftPackageReference "liveview-native-live-form" */;
+			productName = LiveViewNativeLiveForm;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3B1283DB54D81BC88D449F7F /* Project object */;
+}
