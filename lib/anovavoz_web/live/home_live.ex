@@ -54,7 +54,7 @@ defmodule AnovavozWeb.HomeLive do
 
   def recipes(nil) do
     Phoenix.Router.routes(AnovavozWeb.Router)
-    |> Enum.filter(&String.starts_with?(&1.path, "/recipes/"))
+    |> Enum.filter(&String.starts_with?(&1.path, "/recipes"))
   end
 
   def recipes(category) do

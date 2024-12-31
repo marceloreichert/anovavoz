@@ -32,7 +32,7 @@ defmodule AnovavozWeb.Router do
         metadata: %{
           title: "Brasil - Senado Federal",
           icon: "square.stack.fill",
-          description: "Auto-sized cards that snap when scrolling",
+          description: "Acompanhe as votações no Senado Federal",
           category: "Politics"
         }
 

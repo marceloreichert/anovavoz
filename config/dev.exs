@@ -90,3 +90,6 @@ config :swoosh, :api_client, false
 config :live_view_native_stylesheet,
   annotations: true,
   pretty: true
+
+# Path to install SaladUI components
+config :salad_ui, components_path: Path.join(File.cwd!(), "lib/anovavoz_web/components")

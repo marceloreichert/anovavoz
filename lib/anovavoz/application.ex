@@ -17,7 +17,8 @@ defmodule Anovavoz.Application do
       # Start a worker by calling: Anovavoz.Worker.start_link(arg)
       # {Anovavoz.Worker, arg},
       # Start to serve requests, typically the last entry
-      AnovavozWeb.Endpoint
+      AnovavozWeb.Endpoint,
+      TwMerge.Cache
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

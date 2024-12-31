@@ -48,6 +48,7 @@ defmodule AnovavozWeb.HomeLive.SwiftUI do
           </HStack>
         </ScrollView>
       </Section>
+
       <Section>
         <HStack template="header">
           <Text>Recipes</Text>
